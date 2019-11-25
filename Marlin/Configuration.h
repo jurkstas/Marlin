@@ -483,10 +483,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Stock CR-10 tuned for 70C
-  #define DEFAULT_Kp 22.57
-  #define DEFAULT_Ki 1.72
-  #define DEFAULT_Kd 73.96
+  // My CR-10 tuned for 200C
+  #define DEFAULT_Kp 26.52
+  #define DEFAULT_Ki 1.90
+  #define DEFAULT_Kd 92.37
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -538,10 +538,10 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  //Stock CR-10 Bed Tuned for 70C
-  #define DEFAULT_bedKp 426.68
-  #define DEFAULT_bedKi 78.92
-  #define DEFAULT_bedKd 576.71
+  //My CR-10 Bed Tuned for 60C
+  #define DEFAULT_bedKp 110.78
+  #define DEFAULT_bedKi 21.46
+  #define DEFAULT_bedKd 381.14
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
